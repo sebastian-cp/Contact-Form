@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=StyleSheet href="../css/styles.css" type="text/css" media=screen>
+    <link rel=StyleSheet href="../css/container.css" type="text/css" media=screen>
+    <link rel=StyleSheet href="../css/contact-form.css" type="text/css" media=screen>
+    <link rel="icon" href="../multimedia/logo.png">
+    <title>Krysset.cl Contact</title>
+</head> 
+<main>
+    <h1 class="pag">Contact</h1>
+    <div class="container">
+        <div class="title">
+            <h2>Create query</h2>
+            <p class="palabras">Enter your data, all are required</p>
+        </div>
+        <form id="form" class="form">
+
+            <!-- Group: Name -->
+            <div class="form__group" id="group__name">
+                <label for="name" class="form__label">Name</label>
+                <div class="form__gruop-input">
+                    <input type="text" class="form__input" name="name" id="name" placeholder="Pedro Torrez">
+                </div>
+            </div>
+
+            <!-- Group: Text -->
+            <div class="form__group" id="group__nombre">
+                <label for="query" class="form__label">Write your query here</label>
+                <textarea name="comments" rows="10" cols="40" placeholder="Hi, " id="query"></textarea>
+            </div>
+
+            <!-- Group: Button -->
+            <div class="form__group form__group-btn">
+                <button type="submit" class="form__btn">Submit</button>
+            </div>
+        </form>
+    </div>
+</main>
+</body>
+
+</html>
